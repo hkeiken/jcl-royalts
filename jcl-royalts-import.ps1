@@ -104,6 +104,7 @@ if(Test-Path $fileName) {Remove-Item $fileName}
 
 $store = New-RoyalStore -UserName "JCL"
 $doc = New-RoyalDocument -Store $store -Name "JCL Connections" -FileName $fileName
+
 Import-CSV -Path $inputfile | %{
 
 $server = $_
