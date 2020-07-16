@@ -1,4 +1,4 @@
-# jcl-royalts-import
+# jcl-royalts-import.ps1
 
 Small Powershell script using [RoyalDocument.PowerShell module](https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction) to create a RoyalTS / RoyalTSX document from a JCS CSV file with credentials. Two folders, Private and Public is created to store objects for both internal and external destination addresses.
 
@@ -40,7 +40,7 @@ Import-Module "${env:ProgramFiles(x86)}\code4ward.net\Royal TS V4\RoyalDocument.
 ## How to use:
 
 ```
-jcl-royalts-import -inputfile input.csv -outputfile output.rtsz
+jcl-royalts-import.ps1 -inputfile input.csv -outputfile output.rtsz
 ```
 
 
