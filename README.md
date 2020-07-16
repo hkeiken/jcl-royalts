@@ -9,7 +9,8 @@ This module is originating here: https://support.royalapps.com/support/solutions
 ## Installation of PowerShell on MacOS:
 Install Brew:
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 Use Brew to install PowerShell:
