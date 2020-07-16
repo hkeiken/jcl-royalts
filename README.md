@@ -5,21 +5,19 @@ Small Powershell script using [RoyalDocument.PowerShell module](https://support.
 ## Install what is needed
 
 ### Installation of PowerShell on MacOS:
-Install Brew:
+Install [Brew](https://brew.sh/):
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-Use Brew to install PowerShell:
+Use Brew to install [PowerShell]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7 ):
+
 ```
 brew cask install powershell
 ```
 
-[source1](https://brew.sh/) [source2]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7 )
-
-### Installation of PowerShell on linux distribution Debian 10/Buster:
-
+### [Installation of PowerShell on linux distribution Debian 10/Buster( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 ):
 ```
 wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -28,14 +26,10 @@ sudo apt-get install -y powershell
 pwsh
 ```
 
-[source]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 )
-
-## Installation of RoyalDocument.PowerShell:
+## [Installation of RoyalDocument.PowerShell]( https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction ):
 ```
 Import-Module "${env:ProgramFiles(x86)}\code4ward.net\Royal TS V4\RoyalDocument.PowerShell.dll"
 ```
-
-[source]( https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction )
 
 ## How to use:
 
