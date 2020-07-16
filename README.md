@@ -1,8 +1,7 @@
 **jcl-royalts-import**
 
-Small Powershell script using RoyalDocument.PowerShell module to create a RoyalTS / RoyalTSX document from a JCS CSV file with credentials. Two folders, Private and Public is created to store objects for both internal and external destination addresses.
+Small Powershell script using [RoyalDocument.PowerShell module](https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction) to create a RoyalTS / RoyalTSX document from a JCS CSV file with credentials. Two folders, Private and Public is created to store objects for both internal and external destination addresses.
 
-This module is originating here: https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction
 
 # Install what is needed
 
