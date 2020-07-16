@@ -11,13 +11,13 @@ Install [Brew](https://brew.sh/):
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-Use Brew to install [PowerShell]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7 ):
+Use Brew to [install PowerShell]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7 ):
 
 ```
 brew cask install powershell
 ```
 
-### [Installation of PowerShell on linux distribution Debian 10/Buster( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 ):
+### [Installation of PowerShell on linux distribution Debian 10/Buster] https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 ):
 ```
 wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
