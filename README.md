@@ -30,7 +30,7 @@ sudo apt-get install -y powershell
 pwsh
 ```
 
-[source] ( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 )
+[source]( https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 )
 
 # Installation of RoyalDocument.PowerShell:
 ```
