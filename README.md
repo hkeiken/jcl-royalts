@@ -17,7 +17,7 @@ Use Brew to [install PowerShell]( https://docs.microsoft.com/en-us/powershell/sc
 brew cask install powershell
 ```
 
-### [Installation of PowerShell on linux distribution Debian 10/Buster](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 ):
+### Installation of [PowerShell on linux distribution Debian 10/Buster](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7 ):
 ```
 wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -26,7 +26,7 @@ sudo apt-get install -y powershell
 pwsh
 ```
 
-## [Installation of RoyalDocument.PowerShell]( https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction ):
+## Installation of [RoyalDocument.PowerShell]( https://support.royalapps.com/support/solutions/articles/17000027865-royal-ts-powershell-module-introduction ):
 ```
 Import-Module "${env:ProgramFiles(x86)}\code4ward.net\Royal TS V4\RoyalDocument.PowerShell.dll"
 ```
